@@ -13,6 +13,7 @@ def menu():
     print('1. Encode')
     print('2. Decode')
     print('3. Quit')
+    # This prints out the initial menu that the user can choose from
 
 def encode(password):
     encoded = ''
@@ -23,6 +24,7 @@ def encode(password):
             i -= 10
         encoded += str(i)
     return encoded
+    # This encodes the password by going digit by digit and adding 3
 
 if __name__ == '__main__':
     main()
