@@ -3,6 +3,7 @@ def main():
         menu()
         user_input = int(input('\nPlease enter an option: '))
         if user_input == 1:
+            # This allows the user to encode the password if they select option 1 from the menu
             password = input('Please enter your password to encode: ')
             password = encode(password)
             print('Your password has been encoded and stored!')
